@@ -71,6 +71,10 @@ header .subtitle {
 
 
 /* Contact */
+#contact img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
 
 /* Footer */
 footer {
