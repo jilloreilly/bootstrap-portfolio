@@ -1,4 +1,9 @@
 /* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 /* CSS variables */
 :root {
@@ -6,6 +11,7 @@
   --dark: #221c1e;
   --light: #f9ede3;
   --green: #1e6157;
+  --yellow: #f5a602;
 }
 
 body {
@@ -72,3 +78,23 @@ header .subtitle {
 /* Contact */
 
 /* Footer */
+footer {
+  background: var(--blue);
+  color: var(--light);
+}
+
+footer a.nav-link {
+  color: var(--light);
+}
+
+footer a.nav-link:visited {
+  color: var(--light);
+}
+
+footer a.nav-link:hover {
+  color: var(--yellow);
+}
+
+footer p {
+  margin-bottom: 0;
+}
