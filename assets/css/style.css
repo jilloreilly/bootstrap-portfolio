@@ -25,9 +25,6 @@ body {
   background: var(--blue);
 }
 
-#mainNav h1 {
-}
-
 #mainNav .navbar-brand {
   background: var(--light);
   color: var(--blue);
@@ -37,7 +34,10 @@ body {
 
 #mainNav li a {
   color: var(--light);
-  text-decoration: underline;
+}
+
+#mainNav li a:hover {
+  color: var(--yellow);
 }
 
 /* Header */
