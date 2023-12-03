@@ -13,18 +13,18 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-
 /* Navigation */
 #mainNav {
   background: var(--blue);
 }
 
+#mainNav h1 {
+}
+
 #mainNav .navbar-brand {
   background: var(--light);
   color: var(--blue);
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 1em;
   padding: 0 10px;
 }
 
@@ -33,11 +33,23 @@ body {
   text-decoration: underline;
 }
 
-
-
 /* Header */
 header {
   padding-top: 150px;
+  background: url(../images/hero.jpg) center 72px no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:  row;
+  justify-content: flex-end;
+}
+
+header .subtitle {
+  background: var(--light);
+  box-shadow: 5px 5px 8px #888;
+  color: #4e59c0;
+  font-size: 1.5em;
+  margin-right: 20px;
+  padding: 5px 10px;
 }
 
 
