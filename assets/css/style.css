@@ -7,3 +7,47 @@
   --light: #f9ede3;
   --green: #1e6157;
 }
+
+body {
+  color: var(--blue);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* Navigation */
+#mainNav {
+  background: var(--blue);
+}
+
+#mainNav .navbar-brand {
+  background: var(--light);
+  color: var(--blue);
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+#mainNav li a {
+  color: var(--light);
+  text-decoration: underline;
+}
+
+
+
+/* Header */
+header {
+  padding-top: 150px;
+}
+
+
+/* About me */
+
+/* Work */
+
+/* Skills */
+
+
+/* Contact */
+
+/* Footer */
