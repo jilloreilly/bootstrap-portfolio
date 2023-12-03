@@ -150,7 +150,8 @@
 
         <!-- Skills -->
         <section id="skills" class="container">
-            <h2>Skills</h2>
+            <h2 class="display-5 fw-bold">Skills</h2>
+            <div class="row row-cols-2">
             <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -177,6 +178,7 @@
                 <li>GitLab</li>
                 <li>Figma</li>
             </ul>
+            </div>
         </section>
 
         <!-- Contact details -->
@@ -188,6 +190,23 @@
                 <p><a href="https://www.linkedin.com/in/jill-o-reilly/" target="_blank">Linked In</a></p>
                 <p><a href="./assets/Jill-OReilly-CV-Sep22.pdf" target="_blank">Resume</a></p>
             </div>
+
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </section>
 
 
@@ -195,7 +214,25 @@
 
     <!-- Footer - add nav again here and maybe linked in -->
     <footer>
-        © 2023 Designed and developed by Jill O'Reilly
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./assets/Jill-OReilly-CV-Sep22.pdf" target="_blank">Resume</a>
+            </li>
+        </ul>
+        <p>© 2023 Designed and developed by Jill O'Reilly</p>
     </footer>
 
 
