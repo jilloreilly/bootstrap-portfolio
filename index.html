@@ -33,16 +33,19 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-md fixed-top" id="mainNav">
         <div class="container">
             <h1><a class="navbar-brand" href="#page-top">Jill O'Reilly</a></h1>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarResponsive">
+            </button> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About me</a>
@@ -100,7 +103,7 @@
             <h2 class="display-5 fw-bold">Work</h2>
             
             <div class="row row-cols-2">
-                <div class="card col-12">
+                <div class="card col-12 h-100">
                     <img src="./assets/images/work-horiseon.png" class="card-img-top" alt="Horiseon Code Refactor">
                     <div class="card-body">
                         <h5 class="card-title">Horiseon Code Refactor</h5>
@@ -183,7 +186,7 @@
 
         <!-- Contact details -->
         <section id="contact" class="container">
-            <h2 id="contact-me-heading">Contact me</h2>
+            <h2 class="display-5 fw-bold">Contact me</h2>
             <div id="contact-info">
                 <p><a href="mailto:jill.l.oreilly@gmail.com">jill.l.oreilly@gmail.com</a></p>
                 <p><a href="https://github.com/jilloreilly" target="_blank">My github</a></p>
