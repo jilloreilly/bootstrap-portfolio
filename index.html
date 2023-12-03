@@ -68,9 +68,9 @@
     <!-- Header -->
     <header>
         <!--<div class="container">-->
-            <p class="subtitle">Front-end web developer</p>
-        <!--</div>--> 
-        </header>
+        <p class="subtitle">Front-end web developer</p>
+        <!--</div>-->
+    </header>
 
     <!-- Main -->
     <main>
@@ -81,7 +81,7 @@
             <div class="mb-4">
                 <h2 class="display-5 fw-bold">About me</h2>
                 <div class="container-fluid py-5 d-flex flex-row align-items-center">
-                    
+
                     <img src="./assets/images/jill-avatar.png" alt="Avatar image of Jill O'Reilly" class="col-3" />
                     <p class="col-3">Hi! I'm Jill, a front-end developer based in London but originally from
                         Australia. I have had a career break after having my 2 daughters and I'm keen to get back into
@@ -98,43 +98,58 @@
         <!-- Portfolio - grid and use bootstrap cards -->
         <section id="work" class="container">
             <h2 class="display-5 fw-bold">Work</h2>
-            <div id="work-grid">
-                <a href="https://jilloreilly.github.io/code-refactor/" target="_blank" id="main-work"
-                    class="work-grid-area">
-                    <div class="heading">
-                        <h3>Horiseon Code Refactor</h3>
-                        <p>HTML/CSS</p>
+            
+            <div class="row row-cols-2">
+                <div class="card col-12">
+                    <img src="./assets/images/work-horiseon.png" class="card-img-top" alt="Horiseon Code Refactor">
+                    <div class="card-body">
+                        <h5 class="card-title">Horiseon Code Refactor</h5>
+                        <p class="card-text">Skills for Life Front-end Wed Development Bootcamp - Challenge 1 - Code refactor in HTML and CSS to improve SEO</p>
+                        <a href="https://jilloreilly.github.io/code-refactor/" class="btn btn-primary" target="_blank">View project</a>
                     </div>
-                </a>
-                <a href="http://www.bally.com" target="_blank" id="work2" class="work-grid-area">
-                    <div class="heading">
-                        <h3>Bally</h3>
-                        <p>HTML/CSS/Javascript</p>
+                </div>
+            
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
+                    <img src="./assets/images/work-bally.png" class="card-img-top" alt="Bally Luxurywear homepage">
+                    <div class="card-body">
+                        <h5 class="card-title">Bally</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="http://www.bally.com" class="btn btn-primary" target="_blank">View project</a>
                     </div>
-                </a>
-                <a href="http://www.virginmedia.com" target="_blank" id="work3" class="work-grid-area">
-                    <div class="heading">
-                        <h3>Virgin Media</h3>
-                        <p>HTML/CSS/Javascript/Bootstrap</p>
+                </div>
+
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
+                    <img src="./assets/images/work-vm.png" class="card-img-top" alt="Virgin Media Homepage">
+                    <div class="card-body">
+                        <h5 class="card-title">Virgin Media</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="http://www.virginmedia.com" class="btn btn-primary" target="_blank">View project</a>
                     </div>
-                </a>
-                <a href="#" id="work4" class="work-grid-area">
-                    <div class="heading">
-                        <h3>Coming soon...</h3>
-                        <p>HTML/CSS/Javascript</p>
+                </div>
+            
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
+                    <img src="./assets/images/hero.jpg" class="card-img-top" alt="Project 4 coming soon">
+                    <div class="card-body">
+                        <h5 class="card-title">Coming soon...</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary" target="_blank">View project</a>
                     </div>
-                </a>
-                <a href="#" id="work5" class="work-grid-area">
-                    <div class="heading">
-                        <h3>Coming soon...</h3>
-                        <p>HTML/CSS/Javascript</p>
+                </div>
+
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
+                    <img src="./assets/images/hero.jpg" class="card-img-top" alt="Project 5 coming soon">
+                    <div class="card-body">
+                        <h5 class="card-title">Coming soon...</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary" target="_blank">View project</a>
                     </div>
-                </a>
+                </div>
             </div>
+
         </section>
 
         <!-- Skills -->
-        <section id="skills">
+        <section id="skills" class="container">
             <h2>Skills</h2>
             <ul>
                 <li>HTML5</li>
@@ -161,11 +176,11 @@
                 <li>JSX</li>
                 <li>GitLab</li>
                 <li>Figma</li>
-            </ul>    
+            </ul>
         </section>
 
         <!-- Contact details -->
-        <section id="contact">
+        <section id="contact" class="container">
             <h2 id="contact-me-heading">Contact me</h2>
             <div id="contact-info">
                 <p><a href="mailto:jill.l.oreilly@gmail.com">jill.l.oreilly@gmail.com</a></p>

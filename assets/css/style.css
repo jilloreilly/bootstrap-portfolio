@@ -57,6 +57,14 @@ header .subtitle {
 /* About me */
 
 /* Work */
+#work .btn-primary {
+  background-color: var(--blue);
+}
+
+#work img {
+  height: 15rem;
+}
+
 
 /* Skills */
 
