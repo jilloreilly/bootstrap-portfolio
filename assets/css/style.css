@@ -60,11 +60,14 @@ header .subtitle {
 }
 
 
-/* About me */
-
 /* Work */
 #work .btn-primary {
   background-color: var(--blue);
+  color: var(--light);
+}
+
+#work .btn-primary:hover {
+  color: var(--yellow);
 }
 
 /* Skills */
@@ -74,51 +77,20 @@ header .subtitle {
   min-width: 50px;
   height: 50px;
   padding-top: 60px;
+  margin-bottom: 6vw;
 }
 
-#skills .icon-html {
-  background: url(../images/icons/icons8-html5-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-css {
-  background: url(../images/icons/icons8-css3-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-bootstrap {
-  background: url(../images/icons/icons8-bootstrap-logo-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-terminal {
-  background: url(../images/icons/icons8-terminal-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-git {
-  background: url(../images/icons/icons8-git-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-github {
-  background: url(../images/icons/icons8-github-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-javascript {
-  background: url(../images/icons/icons8-javascript-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-api {
-  background: url(../images/icons/icons8-api-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-node {
-  background: url(../images/icons/icons8-node-js-48.png) 50% 50% no-repeat;
-}
-
-#skills .icon-json {
-  background: url(../images/icons/icons8-json-50.png) 50% 50% no-repeat;
-}
-
-#skills .icon-react {
-  background: url(../images/icons/icons8-react-native-50.png) 50% 50% no-repeat;
-}
+#skills .icon-html {background: url(../images/icons/icons8-html5-50.png) 50% 50% no-repeat;}
+#skills .icon-css {background: url(../images/icons/icons8-css3-50.png) 50% 50% no-repeat;}
+#skills .icon-bootstrap {background: url(../images/icons/icons8-bootstrap-logo-50.png) 50% 50% no-repeat;}
+#skills .icon-terminal {background: url(../images/icons/icons8-terminal-50.png) 50% 50% no-repeat;}
+#skills .icon-git {background: url(../images/icons/icons8-git-50.png) 50% 50% no-repeat;}
+#skills .icon-github {background: url(../images/icons/icons8-github-50.png) 50% 50% no-repeat;}
+#skills .icon-javascript {background: url(../images/icons/icons8-javascript-50.png) 50% 50% no-repeat;}
+#skills .icon-api {background: url(../images/icons/icons8-api-50.png) 50% 50% no-repeat;}
+#skills .icon-node {background: url(../images/icons/icons8-node-js-48.png) 50% 50% no-repeat;}
+#skills .icon-json {background: url(../images/icons/icons8-json-50.png) 50% 50% no-repeat;}
+#skills .icon-react {background: url(../images/icons/icons8-react-native-50.png) 50% 50% no-repeat;}
 
 
 /* Contact */
