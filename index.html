@@ -27,10 +27,11 @@
     <nav class="navbar navbar-expand-md fixed-top" id="mainNav">
         <div class="container">
             <h1><a class="navbar-brand" href="#page-top">Jill O'Reilly</a></h1>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+            </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -65,86 +66,93 @@
     <main>
 
         <!-- About me  -->
-        <section id="about">
-            <!-- Jumbotron -->
-            <div class="container mb-4">
-                <h2 class="fw-bold">About me</h2>
-                <div class="py-3 d-flex align-items-center justify-content-evenly flex-sm-column flex-md-row flex-lg-row">
-                    <img src="./assets/images/jill-avatar-sm.png" alt="Avatar image of Jill O'Reilly" class="col-sm-4 col-md-3 col-lg-3 img-fluid" />
-                    <p class="col-sm-12 col-md-4 col-lg-4">Hi! I'm Jill, a front-end developer based in London but originally from
-                        Australia. I have had a career break after having my 2 daughters and I'm keen to get back into
-                        development. I love HTML, CSS and design and I am excited to learn new technologies like React,
-                        node, git and more!</p>
-                    <p class="col-sm-12 col-md-4 col-lg-4">Outside of web development I love scuba diving and travelling as well as
-                        fashion, reading and fibre art such as cross stitch. <br />Have a look at the showcase below of
-                        some of my work from the web development bootcamp as well as projects from my work as a
-                        developer.</p>
+        <section id="about" class="container">
+            <h2 class="fw-bold">About me</h2>
+            <!-- Content for hero section -->
+            <div class="clearfix p-5 col-sm-12 col-md-12 col-lg-12 d-flex text-center align-items-center justify-content-center flex-column flex-md-column flex-lg-row">
+                <img src="./assets/images/jill-avatar-sm.png"
+                    class=" m-4 ms-3 float-md-start float-end rounded-top-circle img-fluid"
+                    alt="Avatar image of Jill O'Reilly">
+                <div class="body">
+                    <p>Hi! I'm <strong>Jill</strong>, a front-end developer based in London but originally from
+                        Australia. I have had a career break after having my 2 daughters and I'm keen to get back
+                        intodevelopment. I love HTML, CSS and design and I am excited to learn new technologies like
+                        React,node, git and more!</p>
+                    <p>Outside of web development I love scuba diving and travelling as well as fashion, reading and
+                        fibre art such as cross stitch.</p>
+                    <p>Have a look at the showcase below of some of my work from the web development bootcamp as well as
+                        projects from my work as a developer.</p>
                 </div>
             </div>
-
         </section>
 
         <!-- Work -->
         <section id="work">
             <div class="container">
-            <h2 class="fw-bold">Work</h2>
+                <h2 class="fw-bold">Work</h2>
 
-            <div class="row">
-                <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img src="./assets/images/work-horiseon.png" class="card-img-top" alt="Horiseon Code Refactor">
-                    <div class="card-body">
-                        <h5 class="card-title">Horiseon Code Refactor</h5>
-                        <p class="card-text">Skills for Life Front-end Wed Development Bootcamp - Challenge 1 - Code refactor in HTML and CSS to improve SEO</p>
-                        <a href="https://jilloreilly.github.io/code-refactor/" class="btn btn-primary" target="_blank">View project</a>
+                <div class="row">
+                    <div class="card col-sm-12 col-md-6 col-lg-6 px-0 mb-3">
+                        <img src="./assets/images/work-horiseon.png" class="card-img-top" alt="Horiseon Code Refactor">
+                        <div class="card-body">
+                            <h5 class="card-title">Horiseon Code Refactor</h5>
+                            <p class="card-text">Skills for Life Front-end Wed Development Bootcamp - Challenge 1 - Code
+                                refactor in HTML and CSS to improve SEO</p>
+                            <a href="https://jilloreilly.github.io/code-refactor/" class="btn btn-primary"
+                                target="_blank">View project</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img src="./assets/images/work-portfolio.png" class="card-img-top" alt="Challenge 2 - Portfolio website screenshot">
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio website</h5>
-                        <p class="card-text">Skills for Life Front-end Wed Development Bootcamp - Challenge 2 - Portfolio website developed in HTML and CSS</p>
-                        <a href="https://jilloreilly.github.io/jill-oreilly-portfolio/#" class="btn btn-primary" target="_blank">View project</a>
+                    <div class="card col-sm-12 col-md-6 col-lg-6 px-0 mb-3">
+                        <img src="./assets/images/work-portfolio.png" class="card-img-top"
+                            alt="Challenge 2 - Portfolio website screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio website</h5>
+                            <p class="card-text">Skills for Life Front-end Wed Development Bootcamp - Challenge 2 -
+                                Portfolio website developed in HTML and CSS</p>
+                            <a href="https://jilloreilly.github.io/jill-oreilly-portfolio/#" class="btn btn-primary"
+                                target="_blank">View project</a>
+                        </div>
                     </div>
-                </div>
-            
-                <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img src="./assets/images/work-bally.png" class="card-img-top" alt="Bally Luxurywear homepage">
-                    <div class="card-body">
-                        <h5 class="card-title">Bally</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="http://www.bally.com" class="btn btn-primary" target="_blank">View project</a>
-                    </div>
-                </div>
 
-                <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img src="./assets/images/work-vm-2.png" class="card-img-top" alt="Virgin Media Homepage">
-                    <div class="card-body">
-                        <h5 class="card-title">Virgin Media</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="http://www.virginmedia.com" class="btn btn-primary" target="_blank">View project</a>
+                    <div class="card col-sm-12 col-md-6 col-lg-6 px-0 mb-3">
+                        <img src="./assets/images/work-bally.png" class="card-img-top" alt="Bally Luxurywear homepage">
+                        <div class="card-body">
+                            <h5 class="card-title">Bally</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="http://www.bally.com" class="btn btn-primary" target="_blank">View project</a>
+                        </div>
                     </div>
-                </div>
-            
-                <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img src="./assets/images/work-tbc.jpg" class="card-img-top" alt="Project 4 coming soon">
-                    <div class="card-body">
-                        <h5 class="card-title">Coming soon...</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary" target="_blank">View project</a>
-                    </div>
-                </div>
 
-                <div class="card col-sm-12 col-md-6 col-lg-6">
-                    <img src="./assets/images/work-tbc.jpg" class="card-img-top" alt="Project 5 coming soon">
-                    <div class="card-body">
-                        <h5 class="card-title">Coming soon...</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary" target="_blank">View project</a>
+                    <div class="card col-sm-12 col-md-6 col-lg-6 px-0 mb-3">
+                        <img src="./assets/images/work-vm-2.png" class="card-img-top" alt="Virgin Media Homepage">
+                        <div class="card-body">
+                            <h5 class="card-title">Virgin Media</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="http://www.virginmedia.com" class="btn btn-primary" target="_blank">View
+                                project</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-12 col-md-6 col-lg-6 px-0 mb-3">
+                        <img src="./assets/images/work-tbc.jpg" class="card-img-top" alt="Project 4 coming soon">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming soon...</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary" target="_blank">View project</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-12 col-md-6 col-lg-6 px-0 mb-3">
+                        <img src="./assets/images/work-tbc.jpg" class="card-img-top" alt="Project 5 coming soon">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming soon...</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary" target="_blank">View project</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </section>
 
         <!-- Skills -->
@@ -169,10 +177,14 @@
         <section id="contact" class="container my-5">
             <h2 class="fw-bold">Contact me</h2>
             <div id="contact-info" class="d-flex flex-row justify-content-evenly">
-                <p><a href="mailto:jill.l.oreilly@gmail.com"><img src="./assets/images/icons/icons8-email-50.png" alt="Email me"></a></p>
-                <p><a href="https://github.com/jilloreilly" target="_blank"><img src="./assets/images/icons/icons8-github-50.png" alt="Github"></a></p>
-                <p><a href="https://www.linkedin.com/in/jill-o-reilly/" target="_blank"><img src="./assets/images/icons/icons8-linked-in-50.png" alt="Linked In"></a></p>
-                <p><a href="./assets/Jill-OReilly-CV-Sep22.pdf" target="_blank"><img src="./assets/images/icons/icons8-resume-50.png" alt="My Resume"></a></p>
+                <p><a href="mailto:jill.l.oreilly@gmail.com"><img src="./assets/images/icons/icons8-email-50.png"
+                            alt="Email me"></a></p>
+                <p><a href="https://github.com/jilloreilly" target="_blank"><img
+                            src="./assets/images/icons/icons8-github-50.png" alt="Github"></a></p>
+                <p><a href="https://www.linkedin.com/in/jill-o-reilly/" target="_blank"><img
+                            src="./assets/images/icons/icons8-linked-in-50.png" alt="Linked In"></a></p>
+                <p><a href="./assets/Jill-OReilly-CV-Sep22.pdf" target="_blank"><img
+                            src="./assets/images/icons/icons8-resume-50.png" alt="My Resume"></a></p>
             </div>
         </section>
 
