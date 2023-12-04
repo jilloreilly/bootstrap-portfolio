@@ -68,6 +68,7 @@ header .subtitle {
 
 #work .btn-primary:hover {
   color: var(--yellow);
+  box-shadow: 2px 2px 8px #888;
 }
 
 #work .card-body {
