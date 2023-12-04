@@ -64,7 +64,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header class="mb-3">
         <!--<div class="container">-->
         <p class="subtitle">Front-end web developer</p>
         <!--</div>-->
@@ -77,14 +77,14 @@
         <section id="about">
             <!-- Jumbotron -->
             <div class="container mb-4">
-                <h2 class="display-5 fw-bold">About me</h2>
+                <h2 class="fw-bold">About me</h2>
                 <div class="py-3 d-flex align-items-center justify-content-evenly flex-sm-column flex-md-row flex-lg-row">
-                    <img src="./assets/images/jill-avatar.png" alt="Avatar image of Jill O'Reilly" class="col-sm-12 col-md-3 col-lg-3" />
-                    <p class="col-sm-12 col-md-3 col-lg-3">Hi! I'm Jill, a front-end developer based in London but originally from
+                    <img src="./assets/images/jill-avatar.png" alt="Avatar image of Jill O'Reilly" class="col-sm-4 col-md-3 col-lg-3" />
+                    <p class="col-sm-12 col-md-4 col-lg-4">Hi! I'm Jill, a front-end developer based in London but originally from
                         Australia. I have had a career break after having my 2 daughters and I'm keen to get back into
                         development. I love HTML, CSS and design and I am excited to learn new technologies like React,
                         node, git and more!</p>
-                    <p class="col-sm-12 col-md-3 col-lg-3">Outside of web development I love scuba diving and travelling as well as
+                    <p class="col-sm-12 col-md-4 col-lg-4">Outside of web development I love scuba diving and travelling as well as
                         fashion, reading and fibre art such as cross stitch. <br />Have a look at the showcase below of
                         some of my work from the web development bootcamp as well as projects from my work as a
                         developer.</p>
@@ -93,10 +93,11 @@
         </section>
 
         <!-- Work -->
-        <section id="work" class="container">
-            <h2 class="display-5 fw-bold">Work</h2>
-            
-            <div class="row row-cols-2">
+        <section id="work">
+            <div class="container">
+            <h2 class="fw-bold">Work</h2>
+
+            <div class="row">
                 <div class="card col-12 h-100">
                     <img src="./assets/images/work-horiseon.png" class="card-img-top" alt="Horiseon Code Refactor">
                     <div class="card-body">
@@ -106,7 +107,7 @@
                     </div>
                 </div>
             
-                <div class="card col col-sm-12 col-md-6 col-lg-6 h-100">
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
                     <img src="./assets/images/work-bally.png" class="card-img-top" alt="Bally Luxurywear homepage">
                     <div class="card-body">
                         <h5 class="card-title">Bally</h5>
@@ -115,7 +116,7 @@
                     </div>
                 </div>
 
-                <div class="card col col-sm-12 col-md-6 col-lg-6 h-100">
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
                     <img src="./assets/images/work-vm.png" class="card-img-top" alt="Virgin Media Homepage">
                     <div class="card-body">
                         <h5 class="card-title">Virgin Media</h5>
@@ -124,7 +125,7 @@
                     </div>
                 </div>
             
-                <div class="card col col-sm-12 col-md-6 col-lg-6 h-100">
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
                     <img src="./assets/images/hero.jpg" class="card-img-top" alt="Project 4 coming soon">
                     <div class="card-body">
                         <h5 class="card-title">Coming soon...</h5>
@@ -133,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="card col col-sm-12 col-md-6 col-lg-6 h-100">
+                <div class="card col col-sm-12 col-md-6 col-lg-6">
                     <img src="./assets/images/hero.jpg" class="card-img-top" alt="Project 5 coming soon">
                     <div class="card-body">
                         <h5 class="card-title">Coming soon...</h5>
@@ -142,68 +143,36 @@
                     </div>
                 </div>
             </div>
-
+        </div>
         </section>
 
         <!-- Skills -->
-        <section id="skills" class="container">
-            <h2 class="display-5 fw-bold">Skills</h2>
-            <div class="row row-cols-2">
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Flexbox</li>
-                <li>Grid</li>
-                <li>Bootstrap</li>
-                <li>Terminal</li>
-                <li>Git</li>
-                <li>Github</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>APIs</li>
+        <section id="skills" class="container my-5 py-3">
+            <h2 class="fw-bold">Skills</h2>
+            <ul class="d-flex flex-row flex-wrap justify-content-evenly list-unstyled text-center">
+                <li class="icon-html">HTML5</li>
+                <li class="icon-css">CSS3</li>
+                <li class="icon-bootstrap">Bootstrap</li>
+                <li class="icon-terminal">Terminal</li>
+                <li class="icon-git">Git</li>
+                <li class="icon-github">Github</li>
+                <li class="icon-javascript">JavaScript</li>
+                <li class="icon-api">APIs</li>
+                <li class="icon-node">Node.js</li>
+                <li class="icon-json">JSON</li>
+                <li class="icon-react">React.js</li>
             </ul>
-            <ul>
-                <li>Node.js</li>
-                <li>NPM</li>
-                <li>JSON</li>
-                <li>ECMAScript6</li>
-                <li>Object-Oriented Programming</li>
-                <li>Test-Driven Development</li>
-                <li>React.js</li>
-                <li>React Hooks</li>
-                <li>JSX</li>
-                <li>GitLab</li>
-                <li>Figma</li>
-            </ul>
-            </div>
         </section>
 
         <!-- Contact details -->
-        <section id="contact" class="container">
-            <h2 class="display-5 fw-bold">Contact me</h2>
+        <section id="contact" class="container my-5">
+            <h2 class="fw-bold">Contact me</h2>
             <div id="contact-info" class="d-flex flex-row justify-content-evenly">
                 <p><a href="mailto:jill.l.oreilly@gmail.com"><img src="./assets/images/icons/icons8-email-50.png" alt="Email me"></a></p>
                 <p><a href="https://github.com/jilloreilly" target="_blank"><img src="./assets/images/icons/icons8-github-50.png" alt="Github"></a></p>
                 <p><a href="https://www.linkedin.com/in/jill-o-reilly/" target="_blank"><img src="./assets/images/icons/icons8-linked-in-50.png" alt="Linked In"></a></p>
                 <p><a href="./assets/Jill-OReilly-CV-Sep22.pdf" target="_blank"><img src="./assets/images/icons/icons8-resume-50.png" alt="My Resume"></a></p>
             </div>
-
-            <!-- <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form> -->
         </section>
 
 

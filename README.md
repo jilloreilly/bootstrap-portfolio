@@ -35,6 +35,7 @@ Thank you to the following:
 - Hero image from [freepik](https://www.freepik.com/free-vector/hand-drawn-abstract-organic-shapes-background_6674913.htm#from_view=detail_alsolike#position=10)
 - Avatar designed on [Canva](https://www.canva.com/)
 - Favicons - [favicon.io](https://favicon.io/favicon-converter/)
+- icons8 for social media and tech [icons](https://icons8.com/) 
 
 ## License
 
